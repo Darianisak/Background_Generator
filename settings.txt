@@ -1,0 +1,266 @@
+Wallpaper 1 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 100; // Diameter of the main Circle
+let secondaryDiam = 66; // Diameter of the Secondary circles
+let AccentScaleFactor = 1; // Scales the accent circles in relation to secondaries
+let imageScale = 1; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 5; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 5; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = false; //  Boolean used for conditonal statement
+let canvasRotation = 45;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 2 Settings
+
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 49; // Diameter of the main Circle
+let secondaryDiam = 66; // Diameter of the Secondary circles
+let AccentScaleFactor = 1; // Scales the accent circles in relation to secondaries
+let imageScale = 1; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 5; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 5; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = false; //  Boolean used for conditonal statement
+let canvasRotation = 45;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 3 Settings
+
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 25; // Diameter of the main Circle
+let secondaryDiam = 120; // Diameter of the Secondary circles
+let AccentScaleFactor = 1; // Scales the accent circles in relation to secondaries
+let imageScale = 1; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 5; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 5; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = false; //  Boolean used for conditonal statement
+let canvasRotation = 45;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 4 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 50; // Diameter of the main Circle
+let secondaryDiam = 40; // Diameter of the Secondary circles
+let AccentScaleFactor = 0.5; // Scales the accent circles in relation to secondaries
+let imageScale = 1.25; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 5; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 5; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = true; //  Boolean used for conditonal statement
+let canvasRotation = 45;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 5 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 60; // Diameter of the main Circle
+let secondaryDiam = 40; // Diameter of the Secondary circles
+let AccentScaleFactor = 0.5; // Scales the accent circles in relation to secondaries
+let imageScale = 1.5; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 15; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 1; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = true; //  Boolean used for conditonal statement
+let canvasRotation = 75;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 6 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 45; // Diameter of the main Circle
+let secondaryDiam = 66; // Diameter of the Secondary circles
+let AccentScaleFactor = 1.5; // Scales the accent circles in relation to secondaries
+let imageScale = 0.8; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 15; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 1; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = true; //  Boolean used for conditonal statement
+let canvasRotation = 50;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 7 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 80; // Diameter of the main Circle
+let secondaryDiam = 120; // Diameter of the Secondary circles
+let AccentScaleFactor = 1.5; // Scales the accent circles in relation to secondaries
+let imageScale = 0.5; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 0; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 10; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = true; //  Boolean used for conditonal statement
+let canvasRotation = 45;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 8 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 100; // Diameter of the main Circle
+let secondaryDiam = 88; // Diameter of the Secondary circles
+let AccentScaleFactor = 1.75; // Scales the accent circles in relation to secondaries
+let imageScale = 0.5; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 3; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 3; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = true; //  Boolean used for conditonal statement
+let canvasRotation = 27.5;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+Wallpaper 9 Settings
+
+//  Parameters for Geometric function:
+let origin = 100; // Point that all drawn shapes are based around
+let mainDiam = 0; // Diameter of the main Circle
+let secondaryDiam = 110; // Diameter of the Secondary circles
+let AccentScaleFactor = 1.5; // Scales the accent circles in relation to secondaries
+let imageScale = 0.5; // Works like AccentScaleFactor, except for all elements
+
+let fillCol = color(84, 123, 123); //  Color parameter for fill color main
+let strokeCol = color(72, 148, 148); //  Color parameter for strokeColor main
+let lineWeight = 3; //  Sets strokeWeight of main element
+let nonMainFill = color(255, 255, 255); //  Color of fill for circles other than main
+let nonMainStroke = color(72, 148, 148); //  Color of stroke for non main elements
+let nonMainlineWeight = 3; //  Stroke weight of nonMain elements, i.e. secondary circles
+let ROTATE_CANVAS = true; //  Boolean used for conditonal statement
+let canvasRotation = 33;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset = 100;
+}
